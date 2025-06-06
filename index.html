@@ -126,7 +126,8 @@
             <div id="Mail">
                 <h4>Introducir mail</h4>
                 <form action="mailto:ejemplo@mail.com" method="POST" enctype="text/plain">
-                    <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required >
+                    <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required
+                    required pattern="@" title="Falta poner @" >
                     <button type="submit" class="Links">Enviar</button>
                 </form>
             </div>
